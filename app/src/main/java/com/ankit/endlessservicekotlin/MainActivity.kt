@@ -39,8 +39,7 @@ class MainActivity : AppCompatActivity() {
         val `is` = i.getStringExtra("isOpen")
         if (`is` != null) {
             if (`is`.equals("Service", ignoreCase = true)) {
-//            onPause();
-                //moveTaskToBack(true);
+
                 finish()
             }
         }
